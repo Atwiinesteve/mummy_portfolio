@@ -4,6 +4,7 @@ import './App.css';
 // Importing Components
 import Header from './components/Header';
 import Services from './components/Services';
+import FeaturedServices from './others/FeaturedServices';
 
 
 // Main App Component
@@ -18,6 +19,9 @@ function App() {
 
       {/* Services Section */}
       <Services />
+
+      {/* Featured Services Setion */}
+      <FeaturedServices />
 
       {/* About Life Setion */}
 
