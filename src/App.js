@@ -3,6 +3,8 @@ import './App.css';
 
 // Importing Components
 import Header from './components/Header';
+import Services from './components/Services';
+import FeaturedServices from './others/FeaturedServices';
 
 
 // Main App Component
@@ -12,10 +14,14 @@ function App() {
 
     <div className="main--container">
 
-      {/* Header Section */}
+      {/* Header and Hero Section */}
       <Header />
 
-      {/* Hero Section */}
+      {/* Services Section */}
+      <Services />
+
+      {/* Featured Services Setion */}
+      <FeaturedServices />
 
       {/* About Life Setion */}
 

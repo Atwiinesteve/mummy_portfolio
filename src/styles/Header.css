@@ -85,5 +85,14 @@ header .hero--section .hero--button--area a {
     font-weight: 100;
     border: none;
     padding: 0.8rem 1rem;
-    background-color: rgb(204, 138, 14);
+    border: 2px solid transparent;
+    background: rgb(204, 138, 14);
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+header .hero--section .hero--button--area a:hover {
+    padding: 0.8rem 1rem;
+    background: transparent;
+    border: 2px solid rgb(204, 138, 14);
 }
