@@ -1,0 +1,39 @@
+.service {
+    cursor: pointer;
+    position: relative;
+}
+
+.service .service--image img  {
+    width: 100%;
+    filter: brightness(1);
+    transition: all 0.4s ease-in-out;
+}
+
+.service .service--image img:hover {
+    filter: brightness(0.4);
+}
+
+.service .service--text--area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5rem;
+    background-color: rgba(255, 166, 0, 0.425);
+    width: 100%;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.service .service--text--area .service--heading h2 {
+    color: white;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.service .service--text--area .service--text p {
+    color: white;
+}
+
+.service:hover .service--text--area {
+    opacity: 1;
+}
