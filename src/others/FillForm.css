@@ -1,0 +1,50 @@
+.fill--form--container {
+    width: 400px;
+    height: 240px;
+    padding: 1rem;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.fill--form--container .fill--form--header {
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.fill--form--container .fill--form--header h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.fill--form--container form .input--control {
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+.fill--form--container form .input--control input[type="date"] {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.fill--form--container form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 0.7rem auto;
+    padding: 0.7rem 1rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(204, 138, 14);
+}
