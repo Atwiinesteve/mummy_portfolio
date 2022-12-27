@@ -3,6 +3,7 @@ import './App.css';
 
 // Importing Components
 import Header from './components/Header';
+import HowIWork from './components/HowIWork';
 import Services from './components/Services';
 import FeaturedServices from './others/FeaturedServices';
 
@@ -23,7 +24,8 @@ function App() {
       {/* Featured Services Setion */}
       <FeaturedServices />
 
-      {/* About Life Setion */}
+      {/* How I Work */}
+      <HowIWork />
 
       {/* Why Section */}
 
