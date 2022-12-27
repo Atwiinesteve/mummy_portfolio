@@ -21,8 +21,8 @@
     padding: 0.6rem 0;
 }
 
-.situation--card .card--header:nth-child(2) {
-    margin-left: 40px;
+.situation--card .card--header h3 {
+    margin-left: 20px;
 }
 
 .situation--card .card--content {

@@ -3,6 +3,7 @@ import './App.css';
 
 // Importing Components
 import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 import HowIWork from './components/HowIWork';
 import Services from './components/Services';
 import Situations from './components/Situations';
@@ -18,6 +19,9 @@ function App() {
 
       {/* Header and Hero Section */}
       <Header />
+
+      {/* About Me Section */}
+      <AboutMe />
 
       {/* Services Section */}
       <Services />
