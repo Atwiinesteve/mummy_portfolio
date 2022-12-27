@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import HowIWork from './components/HowIWork';
 import Services from './components/Services';
+import Situations from './components/Situations';
 import FeaturedServices from './others/FeaturedServices';
 
 
@@ -23,6 +24,9 @@ function App() {
 
       {/* Featured Services Setion */}
       <FeaturedServices />
+
+      {/* Situations I help with */}
+      <Situations />
 
       {/* How I Work */}
       <HowIWork />
