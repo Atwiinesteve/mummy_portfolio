@@ -1,5 +1,5 @@
 section.services--area {
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     margin-top: 5rem;
 }
@@ -34,9 +34,9 @@ section.services--area .services--brief--text p {
 
 section.services--area .services {
     width: 100%;
-    margin: 2rem 1rem 0rem 1rem ;
+    margin: 2rem auto 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
     gap: 5px;
 }
 

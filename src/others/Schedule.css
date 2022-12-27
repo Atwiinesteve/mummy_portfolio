@@ -1,0 +1,50 @@
+.schedule--container {
+    width: 400px;
+    height: 240px;
+    padding: 1rem;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.schedule--container .schedule--header {
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.schedule--container .schedule--header h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.schedule--container form .input--control {
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+.schedule--container form .input--control input[type="date"] {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.schedule--container form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 1rem auto;
+    padding: 0.7rem 1rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(204, 138, 14);
+}
