@@ -1,0 +1,48 @@
+.card {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px;
+    border: 1px solid #f7f7f7;
+    background: #ffffff;
+    box-shadow:  23px 23px 45px #f7f7f7,
+                -23px -23px 45px #ffffff;
+}
+
+.card img {
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.card .card--title p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.card .card--text p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 2;
+}
+
+.card .card--button button {
+    padding: 0.6rem 1rem;
+    text-transform: capitalize;
+    width: 230px;
+    outline: none;
+    border: 1px solid rgb(231, 231, 231);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+}
