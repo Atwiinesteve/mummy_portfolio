@@ -9,6 +9,7 @@ import Services from './components/Services';
 import Situations from './components/Situations';
 import FeaturedServices from './others/FeaturedServices';
 import LetsTalk from './components/LetsTalk';
+import WevaGatYou from './components/WevaGatYou';
 
 
 // Main App Component
@@ -45,7 +46,8 @@ function App() {
 
       {/* Services and Specialities */}
 
-      {/* Counsellor's Information */}
+      {/* We've got you */}
+      <WevaGatYou />
 
       {/* Footer Section */}
       

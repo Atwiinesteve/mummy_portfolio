@@ -24,6 +24,7 @@
     color: white;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 .service .service--text--area .service--text p {
