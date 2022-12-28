@@ -1,0 +1,12 @@
+section#we--have--gat--you {
+    margin: 7rem auto 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section#we--have--gat--you img {
+    margin-bottom: 1.5rem;
+}
