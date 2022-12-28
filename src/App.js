@@ -8,6 +8,7 @@ import HowIWork from './components/HowIWork';
 import Services from './components/Services';
 import Situations from './components/Situations';
 import FeaturedServices from './others/FeaturedServices';
+import LetsTalk from './components/LetsTalk';
 
 
 // Main App Component
@@ -34,6 +35,9 @@ function App() {
 
       {/* How I Work */}
       <HowIWork />
+
+      {/* Let's Talk */}
+      <LetsTalk />
 
       {/* Why Section */}
 
