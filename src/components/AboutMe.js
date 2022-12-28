@@ -1,12 +1,11 @@
 // importing react.
-import React from 'react';
+import React from "react";
 
 // importing styles.
 import "../styles/AboutMe.css";
 
 function AboutMe() {
-
-  return (
+	return (
 		<>
 			<section id="about--me">
 				<div className="about--content">
@@ -38,8 +37,6 @@ function AboutMe() {
 			</section>
 		</>
 	);
-
 }
 
-
-export default AboutMe
+export default AboutMe;
