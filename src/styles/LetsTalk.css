@@ -1,5 +1,5 @@
 section#lets--talk--area {
-    margin: 7rem auto 1rem;
+    margin: 20rem auto 0rem;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@ section#lets--talk--area .lets--talk--header h2 {
 }
 
 section#lets--talk--area .lets--talk--content {
-    width: 40%;
+    width: 35%;
     margin: auto;
 }
 
