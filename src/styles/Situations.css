@@ -1,6 +1,6 @@
 section#situations--section {
     width: 100%;
-    margin: 7rem auto 0rem;
+    margin: 20rem 0rem 0rem 0rem;
     padding: 2rem 2rem;
     display: flex;
     align-items: center;
@@ -25,8 +25,13 @@ section#situations--section .situations--header p {
 }
 
 section#situations--section .situations--content {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, 4fr));
+    place-items: center center;
     width: 100%;
     margin: 2rem auto;
     gap: 2px;
