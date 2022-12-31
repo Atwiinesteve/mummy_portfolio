@@ -10,6 +10,7 @@ import Situations from './components/Situations';
 import FeaturedServices from './others/FeaturedServices';
 import LetsTalk from './components/LetsTalk';
 import WevaGatYou from './components/WevaGatYou';
+import ContactForm from './components/ContactForm';
 
 
 // Main App Component
@@ -39,6 +40,9 @@ function App() {
 
       {/* Let's Talk */}
       <LetsTalk />
+
+      {/* Contact Form */}
+      <ContactForm />
 
       {/* Why Section */}
 
