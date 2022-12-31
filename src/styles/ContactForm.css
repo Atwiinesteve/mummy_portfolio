@@ -1,0 +1,84 @@
+section#contact--form--area {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20rem auto 0rem;
+}
+
+section#contact--form--area .contact--form--header {
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 1.4rem;
+}
+
+section#contact--form--area .contact--form--header h1 {
+    font-size: 3rem;
+}
+
+section#contact--form--area form {
+    padding: 1.5rem;
+    width: 650px;
+    height: 630px;
+    box-shadow:  5px 5px 24px #f0f0f0,
+                -5px -5px 24px #ffffff;
+}
+
+section#contact--form--area form .input--control {
+    width: 100%;
+}
+
+section#contact--form--area form .input--control label {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+section#contact--form--area form .input--control input {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    outline: none;
+    margin: 15px 0px;
+    border: 1px solid #d4d4d4;
+}
+
+section#contact--form--area form .input--control input[type="text"],
+section#contact--form--area form .input--control input[type="email"],
+section#contact--form--area form .input--control input[type="tel"] {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    font-family: "Quicksand", sans-serif;
+}
+
+section#contact--form--area form .input--control textarea {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    outline: none;
+    margin: 15px 0px;
+    border: 1px solid #d4d4d4;
+}
+
+section#contact--form--area form .submit--button button {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    outline: none;
+    margin: 10px 0px;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(216, 142, 3);
+    transition:all 0.7s ease;
+}
+
+section#contact--form--area form .submit--button button:hover {
+    color: rgb(216, 142, 3);
+    font-weight: bolder;
+    background-color: transparent;
+    border: 3px solid rgb(216, 142, 3);
+}

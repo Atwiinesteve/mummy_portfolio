@@ -59,7 +59,7 @@ section#about--me .about--content .download--resume button {
     border: none;
     cursor: pointer;
     color: white;
-    background-color: orange;
+    background-color: rgb(143, 97, 11);
     font-family: "Quicksand", sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
