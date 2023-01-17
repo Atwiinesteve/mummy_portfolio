@@ -7,49 +7,6 @@ header {
     background-size: cover;
 }
 
-header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 1rem 1rem 1rem;
-}
-
-header nav .logo--area {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header nav .logo--area .logo--text p {
-    color: white;
-}
-
-header nav .navigation--menu ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-header nav .navigation--menu ul li {
-    margin-right: 15px;
-}
-
-header nav .navigation--menu ul li:nth-child(5) {
-    padding: 1rem;
-    border: none;
-    background-color: rgb(204, 138, 14);
-    color: white;
-}
-
-header nav .navigation--menu ul li a {
-    color: white;
-    font-size: 1.1rem;
-    cursor: pointer;
-    text-transform: capitalize;
-    font-weight: 600;
-}
-
 header .hero--section {
     width: 100%;
     height: auto;
