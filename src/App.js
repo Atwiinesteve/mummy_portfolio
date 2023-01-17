@@ -1,3 +1,6 @@
+// importing modules
+import React from "react";
+
 // Importing Styles
 import './App.css';
 

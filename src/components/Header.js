@@ -1,6 +1,9 @@
 // Importing React
 import React from 'react';
 
+// importing components.
+import Navbar from '../components/Navbar';
+
 // Importing Styles
 import "../styles/Header.css";
 
@@ -12,42 +15,7 @@ function Header() {
             {/* Header Section */}
 			<header className="header--area">
 				{/* Navigation Bar */}
-				<nav className="navigation--bar">
-					{/* Logo */}
-					<div className="logo--area">
-						<img
-							width="50px"
-							height="50px"
-							src="https://img.icons8.com/cotton/512/bright-mind.png"
-							alt="logo"
-							className="logo--image"
-						/>
-						<div className="logo--text">
-							<p>The MindPillar</p>
-						</div>
-					</div>
-
-					{/* Navigation Menu */}
-					<div className="navigation--menu">
-						<ul className="navigation--links">
-							<li className="navigation--link">
-								<a href="/">home</a>
-							</li>
-							<li className="navigation--link">
-								<a href="/about">about</a>
-							</li>
-							<li className="navigation--link">
-								<a href="/services">services</a>
-							</li>
-							<li className="navigation--link">
-								<a href="/contacts">contacts</a>
-							</li>
-							<li className="navigation--link">
-								<a href="/schedule-consultation">schedule consultation</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
+				<Navbar />
 
                 {/* Hero Text Section */}
                 <div className="hero--section">
