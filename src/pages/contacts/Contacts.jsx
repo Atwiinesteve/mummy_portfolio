@@ -4,6 +4,7 @@ import React from 'react';
 // importing components.
 import Navbar from '../../components/Navbar';
 import Location from '../../others/Location';
+import Footer from '../../components/Footer';
 
 // imporing styles.
 import "../contacts/Contacts.css";
@@ -13,7 +14,6 @@ function Contacts() {
 
   return (
 		<div id="contacts--area">
-
 			{/* Navbar  */}
 			<Navbar />
 
@@ -125,9 +125,12 @@ function Contacts() {
 				</form>
 			</section>
 
-            <section id="google--maps" >
-                <Location />
-            </section>
+			<section id="google--maps">
+				<Location />
+			</section>
+
+			{/* Footer Section */}
+			<Footer />
 		</div>
 	);
 };
