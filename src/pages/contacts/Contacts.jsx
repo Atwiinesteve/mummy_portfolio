@@ -3,7 +3,7 @@ import React from 'react';
 
 // importing components.
 import Navbar from '../../components/Navbar';
-import GoogleMaps from '../../others/GoogleMaps';
+import Location from '../../others/Location';
 
 // imporing styles.
 import "../contacts/Contacts.css";
@@ -13,6 +13,7 @@ function Contacts() {
 
   return (
 		<div id="contacts--area">
+
 			{/* Navbar  */}
 			<Navbar />
 
@@ -124,8 +125,8 @@ function Contacts() {
 				</form>
 			</section>
 
-            <section id="google--maps">
-                <GoogleMaps />
+            <section id="google--maps" >
+                <Location />
             </section>
 		</div>
 	);
