@@ -3,6 +3,7 @@ import React from 'react';
 
 // importing components.
 import Navbar from '../../components/Navbar';
+import GoogleMaps from '../../others/GoogleMaps';
 
 // imporing styles.
 import "../contacts/Contacts.css";
@@ -118,10 +119,14 @@ function Contacts() {
 						</div>
 					</div>
 					<div className="button">
-						<button role="button">send message</button>
+						<button>send message</button>
 					</div>
 				</form>
 			</section>
+
+            <section id="google--maps">
+                <GoogleMaps />
+            </section>
 		</div>
 	);
 };
