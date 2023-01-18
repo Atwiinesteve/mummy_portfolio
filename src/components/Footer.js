@@ -31,16 +31,16 @@ function Footer() {
 						</div>
 						<div className="icon-links">
 							<span>
-								<i class="fa fa-facebook"></i>
+								<i className="fa fa-facebook"></i>
 							</span>
 							<span>
-								<i class="fa fa-twitter"></i>
+								<i className="fa fa-twitter"></i>
 							</span>
 							<span>
-								<i class="fa fa-instagram"></i>
+								<i className="fa fa-instagram"></i>
 							</span>
 							<span>
-								<i class="fa fa-pinterest"></i>
+								<i className="fa fa-pinterest"></i>
 							</span>
 						</div>
 					</div>
@@ -112,7 +112,7 @@ function Footer() {
 								<div className="input--area">
 									<input type="email" placeholder="Your Email.." />
 									<button>
-										<i class="fa fa-send"></i>
+										<i className="fa fa-send"></i>
 									</button>
 								</div>
 							</form>

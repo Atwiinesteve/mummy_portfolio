@@ -125,7 +125,7 @@ function Contacts() {
 				</form>
 			</section>
 
-			<section id="google--maps">
+			<section id="google--maps" style={{ marginTop: "3rem" }}>
 				<Location />
 			</section>
 
