@@ -14,6 +14,7 @@ import FeaturedServices from './others/FeaturedServices';
 import LetsTalk from './components/LetsTalk';
 import WevaGatYou from './components/WevaGatYou';
 import ContactForm from './components/ContactForm';
+import Footer from "./components/Footer";
 
 
 // Main App Component
@@ -57,6 +58,7 @@ function App() {
       <WevaGatYou />
 
       {/* Footer Section */}
+      <Footer />
       
     </div>
 
@@ -64,4 +66,5 @@ function App() {
 
 }
 
+// exporting module.
 export default App;
