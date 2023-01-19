@@ -51,8 +51,7 @@
 }
 
 #footer--area .summary .logo img {
-    width: 100px;
-    height: 100px;
+    margin-right: 1rem;
 }
 
 #footer--area .summary .logo p {

@@ -9,8 +9,9 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import HowIWork from './components/HowIWork';
 import Services from './components/Services';
+import Packages from "./components/Packages";
 import Situations from './components/Situations';
-import FeaturedServices from './others/FeaturedServices';
+// import FeaturedServices from './others/FeaturedServices';
 import LetsTalk from './components/LetsTalk';
 import WevaGatYou from './components/WevaGatYou';
 import ContactForm from './components/ContactForm';
@@ -34,10 +35,13 @@ function App() {
       <Services />
 
       {/* Featured Services Setion */}
-      <FeaturedServices />
+      {/* <FeaturedServices /> */}
 
       {/* Situations I help with */}
       <Situations />
+
+      {/* Packages for payment */}
+      <Packages />
 
       {/* How I Work */}
       <HowIWork />
