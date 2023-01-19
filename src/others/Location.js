@@ -5,18 +5,15 @@ import { Map, GoogleApiWrapper } from "google-maps-react";
 export class Location extends Component {
 	render() {
 		return (
-			<Map 
-                style={{ position: "absolute", width: "100%", height: "70%" }}
-                google={this.props.google}
-                initialCenter = {
-                    {
-                        lat: 0.04069,
-                        lng: 32.458561
-                    }
-                }
-                zoom={15}
-
-            />
+			<Map
+				style={{ position: "absolute", width: "100%", height: "70%" }}
+				google={this.props.google}
+				initialCenter={{
+					lat: 0.04069,
+					lng: 32.458561,
+				}}
+				zoom={15}
+			/>
 		);
 	}
 }
