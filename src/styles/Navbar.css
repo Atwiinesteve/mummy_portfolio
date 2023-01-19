@@ -19,6 +19,7 @@ nav .logo--area {
 }
 
 nav .logo--area .logo--text p {
+    margin-left: 1rem;
     color: white;
 }
 

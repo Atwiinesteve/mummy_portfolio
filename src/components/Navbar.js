@@ -16,8 +16,8 @@ function Navbar() {
 				{/* Logo */}
 				<div className="logo--area">
 					<img
-						width="50px"
-						height="50px"
+						width="40px"
+						height="40px"
 						src="https://cdn-icons-png.flaticon.com/128/2913/2913008.png"
 						alt="logo"
 						className="logo--image"
