@@ -1,32 +1,46 @@
 .service {
+    width: 400px;
     cursor: pointer;
-    position: relative;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 1.5rem;
 }
 
-.service .service--image img  {
+.service .service--image {
     width: 100%;
+    text-align: left;
+    margin: 1rem 0;
+    background: transparent;
+    border-radius: 50%;
 }
 
-.service .service--image img {
-    filter: brightness(0.4);
+.service:hover {
+    background: rgb(240, 193, 64);
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.1);
 }
 
-.service .service--text--area {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 0.5rem;
-    background-color: rgba(255, 166, 0, 0.349);
-    width: 100%;
-}
-
-.service .service--text--area .service--heading h2 {
+.service:hover .service--text--area .service--heading,
+.service:hover .service--text--area .service--text p {
     color: white;
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
-    font-weight: 300;
+    transition: all 0.1s ease-in-out;
+}
+
+.service .service--text--area .service--heading {
+    margin-bottom: 1rem;
 }
 
 .service .service--text--area .service--text p {
-    color: white;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.service .service--text--area .service--link a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }

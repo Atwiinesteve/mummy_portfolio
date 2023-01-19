@@ -7,21 +7,11 @@ import "../others/Service.css";
 // service component
 function Service({ image, alt, heading, text }) {
 
-    const styles = {
-        objectFit: "cover" 
-    }
-
     return (
 			<>
 				<div className="service">
 					<div className="service--image">
-						<img
-							width="355px"
-							height="355px"
-							style={styles}
-							src={image}
-							alt={alt}
-						/>
+						<img width="50px" height="50px" src={image} alt={alt} />
 					</div>
 					<div className="service--text--area">
 						<div className="service--heading">
@@ -29,6 +19,9 @@ function Service({ image, alt, heading, text }) {
 						</div>
 						<div className="service--text">
 							<p>{text}</p>
+						</div>
+						<div className="service--link">
+							<a href="/learn-more">Learn more  &rarr; </a>
 						</div>
 					</div>
 				</div>

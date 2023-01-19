@@ -33,39 +33,55 @@ function Services() {
 			{/* Services Section */}
 			<section className="services--area">
 				<div className="services--header">
-					<h1>services</h1>
+					<h1>Services We're Providing</h1>
 					<hr style={styles} />
 				</div>
 				<div className="services--brief--text">
-					<p>Some of the Services Available at our Offerings..</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio a
+						reiciendis sit aperiam sint saepe ut laudantium eos quo facere.
+						Deleniti saepe accusamus similique
+					</p>
 				</div>
 
 				{/* All Services */}
 				<div className="services">
 					<Slider {...settings}>
 						<Service
-							image="https://images.pexels.com/photos/371285/pexels-photo-371285.jpeg?auto=compress&cs=tinysrgb&w=600"
-							alt="people holding hands"
-							heading="Behavioral Therapy"
-							// text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+							image="https://cdn-icons-png.flaticon.com/128/7145/7145099.png"
+							alt="icon"
+							heading="Anti-Stress Therapy"
+							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 						/>
 						<Service
-							image="https://images.pexels.com/photos/652352/pexels-photo-652352.jpeg?auto=compress&cs=tinysrgb&w=600"
-							alt="people holding hands"
-							heading="Career Guidance"
-							// text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+							image="https://cdn-icons-png.flaticon.com/128/3997/3997728.png"
+							alt="icon"
+							heading="Depression Therapy"
+							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 						/>
 						<Service
-							image="https://images.pexels.com/photos/1415131/pexels-photo-1415131.jpeg?auto=compress&cs=tinysrgb&w=600"
-							alt="people holding hands"
-							heading="Relationships Counselling"
-							// text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+							image="https://cdn-icons-png.flaticon.com/128/2909/2909829.png"
+							alt="icon"
+							heading="Individual Therapy"
+							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 						/>
 						<Service
-							image="https://images.pexels.com/photos/984923/pexels-photo-984923.jpeg?auto=compress&cs=tinysrgb&w=600"
-							alt="people holding hands"
-							heading="Couple Counselling"
-							// text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+							image="https://cdn-icons-png.flaticon.com/128/168/168478.png"
+							alt="icon"
+							heading="Couples Therapy"
+							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+						/>
+						<Service
+							image="https://cdn-icons-png.flaticon.com/128/3997/3997728.png"
+							alt="icon"
+							heading="Tenage Therapy"
+							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+						/>
+						<Service
+							image="https://cdn-icons-png.flaticon.com/128/7081/7081252.png"
+							alt="icon"
+							heading="Child Therapy"
+							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 						/>
 					</Slider>
 				</div>

@@ -16,7 +16,7 @@ function Footer() {
 						<div className="logo">
 							<span className="icon">
 								<img
-									src="https://img.icons8.com/cotton/512/bright-mind.png"
+									src="https://cdn-icons-png.flaticon.com/128/2913/2913008.png"
 									alt="logo"
 								/>
 							</span>
@@ -120,11 +120,10 @@ function Footer() {
 					</div>
 				</div>
 
-        {/* Copy rights */}
+				{/* Copy rights */}
 				<div className="copyrights">
 					<p>All Rights Reserved | MindPillar &copy; 2023 </p>
 				</div>
-
 			</footer>
 		</>
 	);
