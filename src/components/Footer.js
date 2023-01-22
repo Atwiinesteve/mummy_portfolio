@@ -112,8 +112,8 @@ function Footer() {
 						<div className="get--in--touch__form">
 							<form action="https://formspree.io/f/moqbkyqe" method="POST">
 								<div className="input--area">
-									<input type="email" placeholder="Your Email.." />
-									<button>
+									<input name="email" type="email" placeholder="Your Email.." />
+									<button type="submit">
 										<i className="fa fa-send"></i>
 									</button>
 								</div>
