@@ -82,7 +82,7 @@ function Contacts() {
 			</section>
 
 			<section className="contacts-form">
-				<form action="#" autoCapitalize="none">
+				<form action="https://formspree.io/f/moqbkyqe" method="POST" autoCapitalize="none">
 					<div className="form--header">
 						<h2>Get In Touch</h2>
 					</div>

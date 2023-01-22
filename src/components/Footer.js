@@ -16,7 +16,7 @@ function Footer() {
 						<div className="logo">
 							<span className="icon">
 								<img
-									width="60px" 
+									width="60px"
 									height="60px"
 									src="https://cdn-icons-png.flaticon.com/128/2913/2913008.png"
 									alt="logo"
@@ -110,7 +110,7 @@ function Footer() {
 							<p>Subscribe Our Newsletter To Get Our Latest Updated News!</p>
 						</div>
 						<div className="get--in--touch__form">
-							<form>
+							<form action="https://formspree.io/f/moqbkyqe" method="POST">
 								<div className="input--area">
 									<input type="email" placeholder="Your Email.." />
 									<button>
