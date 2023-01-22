@@ -11,7 +11,7 @@ import HowIWork from './components/HowIWork';
 import Services from './components/Services';
 import Packages from "./components/Packages";
 import Situations from './components/Situations';
-// import FeaturedServices from './others/FeaturedServices';
+import FeaturedServices from './others/FeaturedServices';
 import LetsTalk from './components/LetsTalk';
 import WevaGatYou from './components/WevaGatYou';
 import ContactForm from './components/ContactForm';
@@ -22,51 +22,47 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
+		<div className="main--container">
+			{/* Header and Hero Section */}
+			<Header />
 
-    <div className="main--container">
+			{/* About Me Section */}
+			<AboutMe />
 
-      {/* Header and Hero Section */}
-      <Header />
+			{/* Services Section */}
+			<Services />
 
-      {/* About Me Section */}
-      <AboutMe />
+			{/* Situations I help with */}
+			<Situations />
 
-      {/* Services Section */}
-      <Services />
+			{/* Packages for payment */}
+			<Packages />
 
-      {/* Featured Services Setion */}
-      {/* <FeaturedServices /> */}
+			{/* Featured Services Setion */}
+			<FeaturedServices />
 
-      {/* Situations I help with */}
-      <Situations />
+			{/* How I Work */}
+			<HowIWork />
 
-      {/* Packages for payment */}
-      <Packages />
+			{/* Let's Talk */}
+			<LetsTalk />
 
-      {/* How I Work */}
-      <HowIWork />
+			{/* Contact Form */}
+			<ContactForm />
 
-      {/* Let's Talk */}
-      <LetsTalk />
+			{/* Why Section */}
 
-      {/* Contact Form */}
-      <ContactForm />
+			{/* About Company/Person */}
 
-      {/* Why Section */}
+			{/* Services and Specialities */}
 
-      {/* About Company/Person */}
+			{/* We've got you */}
+			<WevaGatYou />
 
-      {/* Services and Specialities */}
-
-      {/* We've got you */}
-      <WevaGatYou />
-
-      {/* Footer Section */}
-      <Footer />
-      
-    </div>
-
-  );
+			{/* Footer Section */}
+			<Footer />
+		</div>
+	);
 
 }
 
