@@ -16,6 +16,8 @@ function Footer() {
 						<div className="logo">
 							<span className="icon">
 								<img
+									width="60px" 
+									height="60px"
 									src="https://cdn-icons-png.flaticon.com/128/2913/2913008.png"
 									alt="logo"
 								/>
