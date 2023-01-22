@@ -33,3 +33,14 @@ section#featured--services .featured--services--offers {
     align-items: center;
     justify-content: center;
 }
+
+/* 
+    ## BOOK APOINTMENT FORMS
+*/
+
+.book--appointment {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

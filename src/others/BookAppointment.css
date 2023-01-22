@@ -1,0 +1,52 @@
+form.book--appointment__form {
+    padding: 0 1rem;
+    width: 400px;
+    height: 500px;
+}
+
+form.book--appointment__form .form--header {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+form.book--appointment__form .input--area {
+    width: 100%;
+}
+
+form.book--appointment__form .input--area input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    margin: 0.2rem 0;
+    outline: none;
+}
+
+form.book--appointment__form .input--area input[type="text"],
+form.book--appointment__form .input--area input[type=text],
+form.book--appointment__form .input--area input[type="email"],
+form.book--appointment__form .input--area input[type=email],
+form.book--appointment__form .input--area input::placeholder {
+    font-family: "Quicksand", sans-serif;
+    font-size: 0.9rem;
+}
+
+form.book--appointment__form button {
+    color: white;
+    background: rgb(211, 138, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+form.book--appointment__form button:hover {
+    background: rgb(126, 82, 1);
+    transition: all 0.5s ease;
+}

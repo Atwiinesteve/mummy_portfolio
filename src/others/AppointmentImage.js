@@ -5,9 +5,19 @@ import React from "react";
 
 // Appointment Image component.
 function AppointmentImage() {
+	const styles = {
+		marginTop: "2rem",
+		objectFit: "cover"
+	}
 	return (
 		<>
-			<img src="" alt="doctor" />
+			<img
+				style={styles}
+				width="400px"
+				height="560px"
+				src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRvY3RvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+				alt="doctor"
+			/>
 		</>
 	);
 }
