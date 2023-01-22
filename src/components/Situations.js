@@ -37,36 +37,6 @@ function Situations() {
 						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."
 					/>
 					<Situation
-						image="https://cdn-icons-png.flaticon.com/512/4406/4406393.png"
-						title="Coaching"
-						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."
-					/>
-					<Situation
-						image="https://cdn-icons-png.flaticon.com/512/4214/4214058.png"
-						title="Creativity"
-						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."
-					/>
-					<Situation
-						image="https://cdn-icons-png.flaticon.com/512/4939/4939498.png"
-						title="Habits"
-						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."
-					/>
-					<Situation
-						image="https://cdn-icons-png.flaticon.com/512/4843/4843981.png"
-						title="Anxiety"
-						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."
-					/>
-					<Situation
-						image="https://cdn-icons-png.flaticon.com/512/5377/5377537.png"
-						title="Confidence"
-						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."
-					/>
-					<Situation
-						image="https://cdn-icons-png.flaticon.com/512/4406/4406393.png"
-						title="Coaching"
-						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."
-					/>
-					<Situation
 						image="https://cdn-icons-png.flaticon.com/512/4214/4214058.png"
 						title="Creativity"
 						text="Together we work in a thorough and interactive way to achieve a shift in thinking so that things that used to make you anxious no longer do."

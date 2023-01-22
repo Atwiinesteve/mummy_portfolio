@@ -11,7 +11,7 @@ function Packages() {
 		<>
 			<section id="packages--area">
 				<div className="packages--header">
-					<h2>Counselling Packages</h2>
+					<h2>Counseling Packages</h2>
 				</div>
 				<div className="packages--header__text">
 					<p>
