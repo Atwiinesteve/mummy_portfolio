@@ -5,8 +5,10 @@ import React from 'react'
 import "../others/FeaturedServices.css";
 
 // importing components.
-import Schedule from './Schedule';
-import FillForm from './FillForm';
+// import Schedule from './Schedule';
+// import FillForm from './FillForm';
+import BookAppointment from './BookAppointment';
+import AppointmentImage from './AppointmentImage';
 
 function FeaturedServices() {
 
@@ -28,9 +30,13 @@ function FeaturedServices() {
             Individual, Couple & Family Counselling
           </p>
         </div>
-        <div className="featured--services--offers">
+        {/* <div className="featured--services--offers">
           <Schedule />
           <FillForm />
+        </div> */}
+        <div className="book--appointment">
+          <BookAppointment />
+          <AppointmentImage />
         </div>
       </section>
 
