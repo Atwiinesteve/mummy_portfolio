@@ -26,6 +26,7 @@ function Packages() {
 						<div className="icon">
 							<span>
 								<img
+									className='icon--image'
 									width="80px"
 									height="80px"
 									src="https://cdn-icons-png.flaticon.com/128/835/835369.png"
@@ -55,7 +56,7 @@ function Packages() {
 					<div className="standard">
 						<div className="icon">
 							<span>
-								<img
+								<img className='icon--image'
 									width="80px"
 									height="80px"
 									src="https://cdn-icons-png.flaticon.com/128/4547/4547315.png"
@@ -85,7 +86,7 @@ function Packages() {
 					<div className="professional">
 						<div className="icon">
 							<span>
-								<img
+								<img className='icon--image'
 									width="80px"
 									height="80px"
 									src="https://cdn-icons-png.flaticon.com/128/2874/2874745.png"

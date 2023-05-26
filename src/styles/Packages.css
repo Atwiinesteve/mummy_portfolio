@@ -24,6 +24,7 @@ section#packages--area .packages--header__text {
 }
 
 section#packages--area .packages--container {
+    margin-top: 2.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,9 +32,9 @@ section#packages--area .packages--container {
 
 section#packages--area .packages--container div {
     width: 400px;
-    height: 800px;
+    height: 480px;
     margin: 1rem 1rem;
-    padding: 1rem;
+    padding: 0rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -45,6 +46,35 @@ section#packages--area .packages--container .standard,
 section#packages--area .packages--container .basic {
     border: 1px solid rgb(221, 221, 221);
     transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+section#packages--area .packages--container .professional .icon span,
+section#packages--area .packages--container .standard .icon span,
+section#packages--area .packages--container .basic .icon span {
+    background: rgb(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    top: -3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#packages--area .packages--container .professional .icon span,
+section#packages--area .packages--container .basic .icon span {
+    background-color: orange;
+}
+
+section#packages--area .packages--container .professional .icon--image,
+section#packages--area .packages--container .standard .icon--image,
+section#packages--area .packages--container .basic .icon--image {
+    width: 40px;
+    height: 40px;
+    
 }
 
 section#packages--area .packages--container .professional:hover,
@@ -57,14 +87,14 @@ section#packages--area .packages--container .basic:hover {
 section#packages--area .packages--container .professional .package--header h2,
 section#packages--area .packages--container .standard .package--header h2,
 section#packages--area .packages--container .basic .package--header h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 section#packages--area .packages--container .professional .package--header p,
 section#packages--area .packages--container .standard .package--header p,
 section#packages--area .packages--container .basic .package--header p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 section#packages--area .packages--container .professional .price span,
@@ -81,7 +111,7 @@ section#packages--area .packages--container .professional .package--contents,
 section#packages--area .packages--container .standard .package--contents,
 section#packages--area .packages--container .basic .package--contents {
     line-height: 2;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 section#packages--area .packages--container .standard .package--contents p:nth-child(3),
@@ -102,8 +132,9 @@ section#packages--area .packages--container .standard {
 }
 
 section#packages--area .packages--container .professional .get--started__btn button,
-section#packages--area .packages--container .standard .get--started__btn button,
 section#packages--area .packages--container .basic .get--started__btn button {
+    position: absolute;
+    bottom: -2rem;
     padding: 0.8rem 1.4rem;
     outline: none;
     font-family: "Quicksand", sans-serif;
@@ -111,5 +142,23 @@ section#packages--area .packages--container .basic .get--started__btn button {
     font-size: 1rem;
     cursor: pointer;
     border: none;
-    border: 1px solid rgb(190, 190, 190);
+    color: white;
+    font-weight: bolder;
+    background-color: orange;
+}
+
+section#packages--area .packages--container .standard .get--started__btn button {
+    position: absolute;
+    bottom: -2rem;
+    padding: 0.8rem 1.4rem;
+    outline: none;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: 2px solid orange;
+    background-color: rgb(255, 255, 255);
 }
