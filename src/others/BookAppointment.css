@@ -49,6 +49,7 @@ form.book--appointment__form .input--area input[type=date] {
     padding: 0.8rem 1rem;
     box-shadow: inset 0 3px 6px rgba(218, 218, 218, 0.1);
     width: 100%;
+    letter-spacing: 2px;
 }
 
 form.book--appointment__form button {
