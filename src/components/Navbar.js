@@ -34,16 +34,16 @@ function Navbar() {
 							<a href="/">home</a>
 						</li>
 						<li className="navigation--link">
-							<a href="/about">about</a>
+							<a href="#about--me">about</a>
 						</li>
 						<li className="navigation--link">
-							<a href="/services">services</a>
+							<a href="#services--area">services</a>
 						</li>
 						<li className="navigation--link">
-							<a href="/contacts">contacts</a>
+							<a href="#contact--form--area">contacts</a>
 						</li>
 						<li className="navigation--link">
-							<a href="/schedule-consultation">schedule consultation</a>
+							<a href="#featured--services">schedule consultation</a>
 						</li>
 					</ul>
 				</div>

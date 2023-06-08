@@ -31,7 +31,7 @@ function Services() {
   return (
 		<>
 			{/* Services Section */}
-			<section className="services--area">
+			<section id="services--area">
 				<div className="services--header">
 					<h1>Services Provided</h1>
 					<hr style={styles} />
