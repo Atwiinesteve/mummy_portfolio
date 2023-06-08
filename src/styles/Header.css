@@ -58,27 +58,69 @@ header .hero--section .hero--button--area a:hover {
 /* media queries */
 
 /* small phones */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
     header .hero--section h1 {
-        color: white;
-        font-size: 2.5rem;
-        margin: 10rem 3rem 0rem 3rem;
-        text-align: center;
-        font-weight: 100;
+        margin: 3rem 3rem 0rem 3rem;
+    }
+    header .hero--section h1 {
+        font-size: 2rem!important;
     }
     header .hero--section .hero--section-text p {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.2rem!important;
+    }
+    header .hero--section .hero--button--area a {
+        color: white;
+        font-size: 1.1rem!important;
+        font-weight: 100;
+        border: none;
+        padding: 0.7rem 1rem;
+        border: 2px solid transparent;
+        background: rgb(204, 138, 14);
+        cursor: pointer;
+        transition: all 0.7s ease;
+    }
+};
+
+/* small phones */
+@media screen and (max-width: 600px) {
+    header .hero--section h1 {
+        font-size: 2rem!important;
+    }
+    header .hero--section .hero--section-text p {
+        color: white;
+        font-size: 1.2rem!important;
+    }
+    header .hero--section .hero--button--area a {
+        color: white;
+        font-size: 1.1rem!important;
+        font-weight: 100;
+        border: none;
+        padding: 0.7rem 1rem;
+        border: 2px solid transparent;
+        background: rgb(204, 138, 14);
+        cursor: pointer;
+        transition: all 0.7s ease;
+    }
+};
+
+@media screen and (max-width: 700px) {
+    header .hero--section h1 {
+        font-size: 2rem;
+    }
+    header .hero--section .hero--section-text p {
+        color: white;
+        font-size: 1.3rem!important;
         margin-top: 3rem;
         text-align: center;
         font-weight: 100;
     }
     header .hero--section .hero--button--area a {
         color: white;
-        font-size: 1.2rem;
+        font-size: 1.1rem!important;
         font-weight: 100;
         border: none;
-        padding: 0.8rem 1rem;
+        padding: 0.7rem 1rem;
         border: 2px solid transparent;
         background: rgb(204, 138, 14);
         cursor: pointer;
