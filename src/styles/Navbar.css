@@ -56,18 +56,86 @@ nav .navigation--menu ul li a {
     font-weight: 100;
 }
 
+nav .navigation--menu .navigation--link .fa-bars {
+    color: white;
+}
+
 nav .navigation--menu .navigation--links .navigation--link .fa-bars {
     display: none;
 }
 
 /* media queries */
 
-/* hanburger menu */
-@media screen and (max-width: 430px) {
+/* small phones */
+@media screen and (max-width: 700px) {
     nav .navigation--menu ul li {
         display: none;
     }
-    nav .navigation--menu .navigation--links .navigation--link .fa-bars {
+    nav .navigation--menu .navigation--link .fa-bars {
         display: block;
+    }
+}
+
+/* tablets */
+@media screen and (min-width: 700px) {
+    nav .navigation--menu .navigation--link .fa-bars {
+        display: none;
+    }
+    nav .navigation--menu ul li a {
+        display: block;
+        color: white;
+        font-size: 0.8rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    nav .navigation--menu ul li:nth-child(5) {
+        padding: 0.4rem 0.7rem;
+        border: none;
+        background-color: rgb(204, 138, 14);
+        color: white;
+        font-weight: 600;
+    }
+}
+
+/* tablets and computers */
+@media screen and (min-width: 780px) {
+    nav .navigation--menu .navigation--link .fa-bars {
+        display: none;
+    }
+    nav .navigation--menu ul li a {
+        color: white;
+        font-size: 0.9rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    nav .navigation--menu ul li:nth-child(5) {
+        padding: 0.5rem 0.7rem;
+        border: none;
+        background-color: rgb(204, 138, 14);
+        color: white;
+        font-weight: 600;
+    }
+}
+
+/* large screens */
+@media screen and (min-width: 900px) {
+    nav .navigation--menu .navigation--link .fa-bars {
+        display: none;
+    }
+    nav .navigation--menu ul li a {
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    nav .navigation--menu ul li:nth-child(5) {
+        padding: 0.5rem 0.7rem;
+        border: none;
+        background-color: rgb(204, 138, 14);
+        color: white;
+        font-weight: 600;
     }
 }

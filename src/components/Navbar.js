@@ -47,9 +47,7 @@ function Navbar() {
 						</li>
 					</ul>
 					<div className="navigation--link">
-						<i style={{
-							color: "white",
-						}} class="fa-solid fa-bars"></i>
+						<i class="fa-solid fa-bars"></i>
 					</div>
 				</div>
 			</nav>
