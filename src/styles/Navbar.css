@@ -9,10 +9,16 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1rem 1rem 1rem;
-    z-index: 999;
+    z-index: 10;
 }
 
 nav .logo--area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .navigation--menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,4 +54,20 @@ nav .navigation--menu ul li a {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 100;
+}
+
+nav .navigation--menu .navigation--links .navigation--link .fa-bars {
+    display: none;
+}
+
+/* media queries */
+
+/* hanburger menu */
+@media screen and (max-width: 430px) {
+    nav .navigation--menu ul li {
+        display: none;
+    }
+    nav .navigation--menu .navigation--links .navigation--link .fa-bars {
+        display: block;
+    }
 }

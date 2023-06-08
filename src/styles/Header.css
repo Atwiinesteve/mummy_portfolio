@@ -53,3 +53,16 @@ header .hero--section .hero--button--area a:hover {
     background: transparent;
     border: 2px solid rgb(204, 138, 14);
 }
+
+
+/* media queries */
+
+/* hanburger menu */
+@media screen and (max-width: 430px) {
+    nav .navigation--menu ul li {
+        display: none;
+    }
+    nav .navigation--menu .navigation--links .navigation--link .fa-bars {
+        display: block;
+    }
+}
