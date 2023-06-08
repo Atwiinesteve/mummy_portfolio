@@ -50,7 +50,7 @@ function Services() {
 						<Service
 							image="https://cdn-icons-png.flaticon.com/128/7145/7145099.png"
 							alt="icon"
-							heading="Anti-Stress Therapy"
+							heading="Stress Therapy"
 							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 						/>
 						<Service
@@ -74,7 +74,7 @@ function Services() {
 						<Service
 							image="https://cdn-icons-png.flaticon.com/128/3997/3997728.png"
 							alt="icon"
-							heading="Tenage Therapy"
+							heading="Teenage Therapy"
 							text="Esint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 						/>
 						<Service
