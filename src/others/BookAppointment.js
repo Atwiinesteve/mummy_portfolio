@@ -7,9 +7,20 @@ import "../others/BookAppointment.css";
 // appointment form component.
 function BookAppointment() {
 
+	// clean input areas
+	const inputCleaner = () => {
+		return {
+			name: '',
+			email: '',
+			numbers: '',
+			date: '',
+			message: ''
+		}
+	};
+
     return (
 			<>
-				<form
+				<form onSubmit={() => inputCleaner()}
 					action="https://formspree.io/f/moqbkyqe"
 					className="book--appointment__form"
 					method="POST"
