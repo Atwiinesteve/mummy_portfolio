@@ -46,6 +46,11 @@ function Navbar() {
 							<a href="#featured--services">schedule consultation</a>
 						</li>
 					</ul>
+					<div className="navigation--link">
+						<i style={{
+							color: "white",
+						}} class="fa-solid fa-bars"></i>
+					</div>
 				</div>
 			</nav>
 		</>
