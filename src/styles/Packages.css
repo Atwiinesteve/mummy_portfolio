@@ -162,3 +162,35 @@ section#packages--area .packages--container .standard .get--started__btn button 
     border: 2px solid orange;
     background-color: rgb(255, 255, 255);
 }
+
+
+/* media queries */
+
+/* small phones */
+@media screen and (max-width: 700px) {
+    section#packages--area {
+        margin: 10rem 0 0 0;
+    }
+    section#packages--area .packages--header {
+        margin: 1rem 0;
+        font-size: 1.7rem;
+    }
+    section#packages--area .packages--header__text {
+        width: 90%;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    section#packages--area .packages--container {
+        margin-top: 2.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4.5rem;
+    }
+    section#packages--area .packages--container div {
+        width: 340px;
+        height: 480px;
+    }
+}
