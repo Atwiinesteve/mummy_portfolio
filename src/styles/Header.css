@@ -57,12 +57,60 @@ header .hero--section .hero--button--area a:hover {
 
 /* media queries */
 
-/* hanburger menu */
+/* small phones */
 @media screen and (max-width: 430px) {
-    nav .navigation--menu ul li {
-        display: none;
+    header .hero--section h1 {
+        color: white;
+        font-size: 2.5rem;
+        margin: 10rem 3rem 0rem 3rem;
+        text-align: center;
+        font-weight: 100;
     }
-    nav .navigation--menu .navigation--links .navigation--link .fa-bars {
-        display: block;
+    header .hero--section .hero--section-text p {
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: 100;
+    }
+    header .hero--section .hero--button--area a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 100;
+        border: none;
+        padding: 0.8rem 1rem;
+        border: 2px solid transparent;
+        background: rgb(204, 138, 14);
+        cursor: pointer;
+        transition: all 0.7s ease;
+    }
+}
+
+/* tablets */
+@media screen and (max-width: 768px) {
+    header .hero--section h1 {
+        color: white;
+        font-size: 3rem;
+        /* margin: 10rem 3rem 0rem 3rem;
+        text-align: center;
+        font-weight: 100; */
+    }
+    header .hero--section .hero--section-text p {
+        color: white;
+        font-size: 1.8rem;
+        margin-top: 3rem;
+        text-align: center;
+        font-weight: 100;
+    }
+    header .hero--section .hero--button--area a {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 100;
+        border: none;
+        padding: 0.8rem 1rem;
+        border: 2px solid transparent;
+        background: rgb(204, 138, 14);
+        cursor: pointer;
+        transition: all 0.7s ease;
     }
 }
