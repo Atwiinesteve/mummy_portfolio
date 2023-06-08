@@ -14,7 +14,7 @@ function BookAppointment() {
 					className="book--appointment__form"
 					method="POST"
 				>
-					<div className="form--header">
+					<div className="form--header appointment">
 						<h2>Book An Appointment</h2>
 					</div>
 					<div className="input--area">
@@ -31,7 +31,7 @@ function BookAppointment() {
 							<input name="date" type="date" />
 						</div>
 					</div>
-					<div className="form--header">
+					<div className="form--header address">
 						<h2>Address Details</h2>
 					</div>
 					<div className="input--area">
