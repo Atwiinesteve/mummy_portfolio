@@ -71,3 +71,78 @@ section#about--me .about--content .download--resume button {
 section#about--me .about--content .download--resume button:hover {
     background-color: rgb(204, 134, 4);
 }
+
+/* media queries */
+
+/* small phones */
+@media screen and (max-width: 700px) {
+    #about--me {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section#about--me .about--content {
+        width: 100%;
+        margin: 10rem 0rem 0rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section#about--me .about--content .profile--image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section#about--me .about--content .profile--image img {
+        transform: rotate(0deg);
+        transition: all 0.5s ease;
+        box-shadow: -10px 10px 20px 1px rgb(205 205 205);
+        width: 80%;
+    }
+    section#about--me .about--content .profile--text {
+        width: 100%;
+        margin: 2rem 0rem 0rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    section#about--me .about--content .profile--text .names p:nth-child(1) {
+        font-size: 1.1rem;
+        color: rgb(102, 102, 102);
+        font-weight: 600;
+        text-transform: capitalize;
+        font-family: "Satisfy", sans-serif;
+    }
+    section#about--me .about--content .profile--text .names p:nth-child(2) {
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+        font-family: "Pacifico", sans-serif;
+        letter-spacing: 4px;
+    }
+    section#about--me .about--content .profile--text .short--desc p {
+        font-size: 1rem;
+        margin: 0rem 2rem;
+        line-height: 1.5;
+    }
+    section#about--me .about--content .download--resume button {
+        padding: 0.7rem 0.8rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background-color: rgb(143, 97, 11);
+        font-family: "Quicksand", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        transition: all 0.5s ease;
+    }
+}

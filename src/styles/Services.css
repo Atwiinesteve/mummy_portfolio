@@ -36,3 +36,30 @@ section#services--area .services {
     margin: 3rem auto 0rem;
 }
 
+/* media queries */
+
+/* small phones */
+@media screen and (max-width: 700px) {
+    section#services--area {
+        width: 100vw;
+        margin: 10rem 0rem 0rem 0rem;
+    }
+    section#services--area .services--header h1 {
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+        letter-spacing: 5px;
+    }
+    section#services--area .services--brief--text p {
+        margin-top: 1.1rem;
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    section#services--area .services {
+        width: 100%;
+        margin: 2rem -1rem;
+    }
+}
+
