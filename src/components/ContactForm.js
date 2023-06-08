@@ -17,7 +17,7 @@ function ContactForm() {
 						<div className="input--control">
 							<label htmlFor="names">full names</label>
 							<br />
-							<input type="text" />
+							<input autoComplete='none' type="text" />
 						</div>
 						<div className="input--control">
 							<label>email</label>
