@@ -1,6 +1,8 @@
 // importing modules
 import React from "react";
 
+import "@stripe/stripe-js";
+
 // Importing Styles
 import './App.css';
 
