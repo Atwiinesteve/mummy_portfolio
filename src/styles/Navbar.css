@@ -4,7 +4,7 @@ nav {
     left: 0;
     width: 100%;
     height: 6vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,7 +40,7 @@ nav .navigation--menu ul li {
     margin-right: 15px;
 }
 
-nav .navigation--menu ul li:nth-child(5) {
+nav .navigation--menu ul li:last-child {
     padding: 0.7rem 1rem;
     border: none;
     background-color: rgb(204, 138, 14);
@@ -50,10 +50,10 @@ nav .navigation--menu ul li:nth-child(5) {
 
 nav .navigation--menu ul li a {
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 100;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 
 nav .navigation--menu .navigation--link .fa-bars {
@@ -77,7 +77,7 @@ nav .navigation--menu .navigation--links .navigation--link .fa-bars {
 }
 
 /* tablets */
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
     nav .navigation--menu .navigation--link .fa-bars {
         display: none;
     }
@@ -86,8 +86,9 @@ nav .navigation--menu .navigation--links .navigation--link .fa-bars {
         color: white;
         font-size: 0.8rem;
         cursor: pointer;
-        text-transform: uppercase;
-        font-weight: 100;
+        text-transform: capitalize;
+        font-weight: 600;
+
     }
     nav .navigation--menu ul li:nth-child(5) {
         padding: 0.4rem 0.7rem;
@@ -96,10 +97,10 @@ nav .navigation--menu .navigation--links .navigation--link .fa-bars {
         color: white;
         font-weight: 600;
     }
-}
+} */
 
 /* tablets and computers */
-@media screen and (min-width: 780px) {
+/* @media screen and (max-width: 780px) {
     nav .navigation--menu .navigation--link .fa-bars {
         display: none;
     }
@@ -117,25 +118,11 @@ nav .navigation--menu .navigation--links .navigation--link .fa-bars {
         color: white;
         font-weight: 600;
     }
-}
+} */
 
 /* large screens */
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
     nav .navigation--menu .navigation--link .fa-bars {
         display: none;
     }
-    nav .navigation--menu ul li a {
-        color: white;
-        font-size: 1rem;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-weight: 100;
-    }
-    nav .navigation--menu ul li:nth-child(5) {
-        padding: 0.5rem 0.7rem;
-        border: none;
-        background-color: rgb(204, 138, 14);
-        color: white;
-        font-weight: 600;
-    }
-}
+} */
