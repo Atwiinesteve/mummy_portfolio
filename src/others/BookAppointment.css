@@ -52,7 +52,7 @@ form.book--appointment__form .input--area input[type=date] {
     letter-spacing: 2px;
 }
 
-form.book--appointment__form button {
+form.book--appointment__form button.submit--btn {
     color: white;
     background: rgb(211, 138, 1);
     border: none;
@@ -69,4 +69,47 @@ form.book--appointment__form button {
 form.book--appointment__form button:hover {
     background: rgb(126, 82, 1);
     transition: all 0.5s ease;
+}
+
+
+/* media queries */
+
+/* small phones */
+@media screen and (max-width: 700px) {
+    form.book--appointment__form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    form.book--appointment__form .form--header.appointment {
+        margin-top: 12rem;
+    }
+    form.book--appointment__form .input--area {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0.6rem 0 0rem -6rem;
+    }
+    form.book--appointment__form .input--area input {
+        width: 280%;
+        padding: 0.7rem 1rem;
+        border: 1px solid rgb(223, 223, 223);
+        border-radius: 3px;
+        margin: 0.2rem -3rem;
+        outline: none;
+    }
+    form.book--appointment__form .input--area input[type='date'] {
+        width: 165%!important;
+        padding: 0.7rem 1rem;
+        border: 1px solid rgb(223, 223, 223);
+        border-radius: 3px;
+        margin: 0.6rem 0 3rem -0.5rem;
+        outline: none;
+    }
+    form.book--appointment__form button.submit--btn {
+        width: 80%;
+    }
 }
