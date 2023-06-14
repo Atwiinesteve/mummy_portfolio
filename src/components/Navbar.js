@@ -40,6 +40,9 @@ function Navbar() {
 							<a href="#services--area">services</a>
 						</li>
 						<li className="navigation--link">
+							<a href="#packages--area">packages</a>
+						</li>
+						<li className="navigation--link">
 							<a href="#contact--form--area">contacts</a>
 						</li>
 						<li className="navigation--link">

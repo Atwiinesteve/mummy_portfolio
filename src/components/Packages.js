@@ -3,7 +3,9 @@ import React from 'react';
 
 // importing styles
 import "../styles/Packages.css";
-import Payments from '../payments/Payments';
+import BasicPackagePayment from '../payments/BasicPayment';
+import StandardPackagePayment from '../payments/StandardPayment';
+import PremiumPackagePayment from '../payments/PremiumPaymnet';
 
 // packages component.
 function Packages() {
@@ -40,7 +42,7 @@ function Packages() {
 							<p>For A Month</p>
 						</div>
 						<div className="price">
-							<span>$134</span>
+							<span>$27</span>
 						</div>
 						<div className="package--contents">
 							<p>Weekly Health Checkup</p>
@@ -50,7 +52,7 @@ function Packages() {
 						</div>
 						<div className="get--started__btn">
 							{/* <button>get started</button> */}
-							<Payments />
+							<BasicPackagePayment />
 						</div>
 					</div>
 
@@ -71,7 +73,7 @@ function Packages() {
 							<p>For A Month</p>
 						</div>
 						<div className="price">
-							<span>$145</span>
+							<span>$41</span>
 						</div>
 						<div className="package--contents">
 							<p>Weekly Health Checkup</p>
@@ -80,7 +82,8 @@ function Packages() {
 							<p>24/7 Online Health Support</p>
 						</div>
 						<div className="get--started__btn">
-							<button>get started</button>
+							{/* <button>get started</button> */}
+							<StandardPackagePayment />
 						</div>
 					</div>
 
@@ -97,11 +100,11 @@ function Packages() {
 							</span>
 						</div>
 						<div className="package--header">
-							<h2>Professional</h2>
+							<h2>Premium</h2>
 							<p>For A Month</p>
 						</div>
 						<div className="price">
-							<span>$180</span>
+							<span>$54</span>
 						</div>
 						<div className="package--contents">
 							<p>Weekly Health Checkup</p>
@@ -110,7 +113,8 @@ function Packages() {
 							<p>24/7 Online Health Support</p>
 						</div>
 						<div className="get--started__btn">
-							<button>get started</button>
+							{/* <button>get started</button> */}
+							<PremiumPackagePayment />
 						</div>
 					</div>
 				</div>
