@@ -15,9 +15,7 @@ function Footer() {
 					<div className="summary">
 						<div className="logo">
 							<span className="icon">
-								<img
-									width="60px"
-									height="60px"
+								<img className='footer--logo'
 									src="https://cdn-icons-png.flaticon.com/128/2913/2913008.png"
 									alt="logo"
 								/>
@@ -77,7 +75,7 @@ function Footer() {
 					{/* explore area */}
 					<div className="explore">
 						<div className="explore__links__header">
-							<h3>Explore</h3>
+							<h3>Explore with us</h3>
 						</div>
 						<div className="e__links">
 							<ul>
