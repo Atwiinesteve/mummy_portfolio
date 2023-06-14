@@ -13,8 +13,9 @@ section#situations--section .situations--header {
 }
 
 section#situations--section .situations--header h2 {
-    font-size: 2.8rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
+    font-family: 'Caveat', cursive;
 }
 
 section#situations--section .situations--header p {
@@ -36,13 +37,15 @@ section#situations--section .situations--content {
 /* small phones */
 @media screen and (max-width: 700px) {
     section#situations--section {
-        width: 100%!important;
-        margin: 10rem 0rem 0rem 0rem;
-        padding: 2rem 2rem;
-        display: block;
+        width: 100%;
+        height: 140vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     section#situations--section .situations--header h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         margin-bottom: 1rem;
     }
     section#situations--section .situations--header {

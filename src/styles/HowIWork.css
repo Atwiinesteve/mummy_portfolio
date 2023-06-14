@@ -1,5 +1,10 @@
 section#how--it--works {
-    margin: 20rem 0rem 0rem 0rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 section#how--it--works .how--it--works--header {
@@ -8,9 +13,10 @@ section#how--it--works .how--it--works--header {
 }
 
 section#how--it--works .how--it--works--header h2 {
-    font-size: 3rem;
-    text-transform: uppercase;
+    font-size: 4rem;
+    text-transform: capitalize;
     font-weight: bolder;
+    font-family: 'Caveat', cursive;
 }
 
 section#how--it--works .cards--section {
@@ -25,7 +31,7 @@ section#how--it--works .cards--section {
 /* small phones */
 @media screen and (max-width: 700px) {
     section#how--it--works {
-        margin: 15rem 0rem 0rem 0rem;
+        margin-top: 28rem;
     }
     section#how--it--works .how--it--works--header {
         text-align: center;

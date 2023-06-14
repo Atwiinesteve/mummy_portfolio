@@ -22,7 +22,7 @@ function FeaturedServices() {
       
       <section id="featured--services">
         <div className="featured--services--heading">
-          <h3>Featured Services</h3> 
+          <h3>Schedule a Meeting Now with the expert</h3> 
           <hr style={styles} />
         </div>
         <div className="featured--services--text">

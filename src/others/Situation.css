@@ -23,6 +23,8 @@
 
 .situation--card .card--header h3 {
     margin-left: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.9rem;
 }
 
 .situation--card .card--content {
