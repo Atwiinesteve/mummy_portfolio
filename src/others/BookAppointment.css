@@ -77,6 +77,7 @@ form.book--appointment__form button:hover {
 /* small phones */
 @media screen and (max-width: 700px) {
     form.book--appointment__form {
+        margin-top: 3rem;
         display: flex;
         justify-content: center;
         align-items: center;

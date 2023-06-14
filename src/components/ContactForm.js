@@ -11,7 +11,7 @@ function ContactForm() {
 			<>
 				<section id="contact--form--area">
 					<div className="contact--form--header">
-						<h1>Don't wait longer. Start forging your own path today.</h1>
+						<h1>Don't wait longer. Meet your mental coach today.</h1>
 					</div>
 					<form autoComplete="off" action="https://formspree.io/f/moqbkyqe" method="POST">
 						<div className="input--control">
