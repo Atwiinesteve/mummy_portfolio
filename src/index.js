@@ -6,6 +6,8 @@ import App from './App';
 // importing react-router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contacts from './pages/contacts/Contacts';
+import Success from './payments/Success';
+import Cancel from './payments/Cancel';
 
 // router setting up
 const router = createBrowserRouter([
@@ -21,6 +23,18 @@ const router = createBrowserRouter([
 		path: "/contacts",
 		element: <Contacts />
 	},
+
+	// success page
+	{
+		path: "/success",
+		element: <Success />
+	},
+
+	// cancel page
+	{
+		path: "/cancel",
+		element: <Cancel />
+	}
 
 
 ]);
