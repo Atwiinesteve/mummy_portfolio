@@ -53,6 +53,10 @@ section#services--area .services {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-top: 5rem;
+    }
+    section#services--area .services--header h1 {
+        font-size: 3rem;
     }
     section#services--area .services--brief--text {
         display: flex;

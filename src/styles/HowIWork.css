@@ -31,7 +31,9 @@ section#how--it--works .cards--section {
 /* small phones */
 @media screen and (max-width: 700px) {
     section#how--it--works {
-        margin-top: 28rem;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 50rem;
     }
     section#how--it--works .how--it--works--header {
         text-align: center;
