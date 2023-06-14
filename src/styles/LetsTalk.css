@@ -18,3 +18,30 @@ section#lets--talk--area .lets--talk--content p {
     font-size: 1.3rem;
     line-height: 1.5;
 }
+
+
+/* media queries */
+
+/* small phones */
+@media screen and (max-width: 700px) {
+    section#lets--talk--area {
+        margin: 15rem auto 0rem;
+        text-align: center;
+    }
+    
+    section#lets--talk--area .lets--talk--header h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-bottom: 1.5rem;
+    }
+    
+    section#lets--talk--area .lets--talk--content {
+        width: 90%;
+        margin: auto;
+    }
+    
+    section#lets--talk--area .lets--talk--content p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+}
