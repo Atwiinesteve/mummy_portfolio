@@ -115,5 +115,45 @@ section#contact--form--area form .submit--button button:hover {
         box-shadow:  5px 5px 24px #f0f0f0,
                     -5px -5px 24px #ffffff;
     }
+    section#contact--form--area form .input--control label {
+        margin: 1.4rem 0 0 1.4rem;
+        font-size: 1rem;
+    }
+    section#contact--form--area form .input--control input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 0.4rem 1rem;
+        outline: none;
+        margin: 15px 0 0 1.4rem;
+        border: 1px solid #d4d4d4;
+    }
+    section#contact--form--area form .input--control textarea {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 0.4rem 1rem;
+        outline: none;
+        margin: 15px 0 0 1.4rem;
+        border: 1px solid #d4d4d4;
+    }
+    section#contact--form--area form .submit--button button {
+        padding: 0.6rem 1rem;
+        width: 80%;
+        outline: none;
+        margin: 10px 0px 0px 2.2rem;
+        font-family: "Quicksand", sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        cursor: pointer;
+        border: 3px solid transparent;
+        color: white;
+        font-weight: bolder;
+        background-color: rgb(216, 142, 3);
+        transition:all 0.7s ease;
+    }
     
 }
