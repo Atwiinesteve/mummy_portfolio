@@ -3,6 +3,7 @@ import React from 'react';
 
 // importing styles
 import "../styles/Packages.css";
+import Payments from '../payments/Payments';
 
 // packages component.
 function Packages() {
@@ -48,7 +49,8 @@ function Packages() {
 							<p>24/7 Online Health Support</p>
 						</div>
 						<div className="get--started__btn">
-							<button>get started</button>
+							{/* <button>get started</button> */}
+							<Payments />
 						</div>
 					</div>
 
