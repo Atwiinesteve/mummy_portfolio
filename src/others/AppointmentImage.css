@@ -1,0 +1,18 @@
+img.appointment--image {
+    width: 400px;
+    height: 560px;
+    margin-top: 2rem;
+    object-fit: cover;
+}
+
+/* media queries */
+
+/* small phones */
+@media screen and (max-width: 700px) {
+    img.appointment--image {
+        width: 300px;
+        height: 460px;
+        margin-top: 11rem;
+        object-fit: cover;
+    }
+}

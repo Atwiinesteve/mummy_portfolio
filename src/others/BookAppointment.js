@@ -63,7 +63,7 @@ function BookAppointment() {
 							</div>
 						</div>
 					</div>
-					<button type="submit">submit</button>
+					<button className='submit--btn' type="submit">submit</button>
 				</form>
 			</>
 		);
