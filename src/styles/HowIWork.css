@@ -19,3 +19,28 @@ section#how--it--works .cards--section {
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* media queries */
+
+/* small phones */
+@media screen and (max-width: 700px) {
+    section#how--it--works {
+        margin: 15rem 0rem 0rem 0rem;
+    }
+    section#how--it--works .how--it--works--header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    section#how--it--works .how--it--works--header h2 {
+        font-size: 2rem;
+    }
+    
+    section#how--it--works .cards--section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+}
